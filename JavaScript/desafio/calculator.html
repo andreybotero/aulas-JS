@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    <title>calculadora com css</title>
+</head>
+
+<body>
+
+    <div class="all">
+
+        <h3>Calculadora</h3>
+        <div class="buttons">
+
+            <label>
+
+                <p>Insira valor 1:</p>
+                <input type="text" id="number1"> <br> <br>
+
+                <p>Insira valor 2:</p>
+                <input type="text" id="number2">
+
+            </label>
+
+        </div>
+        <div class="aling">
+
+            <button type="button" onclick="soma()">+</button>
+            <button type="button" onclick="subtrair()">-</button>
+            <button type="button" onclick="multiplicar()">X</button>
+            <button type="button" onclick="dividir()"> / </button>
+        </div>
+
+
+        <div class="result">
+            <p id="mais"></p>
+            <br>
+            <p id="menos"></p>
+            <br>
+            <p id="vezes"></p>
+            <p id="dividido"></p>
+        </div>
+    </div>
+
+
+
+    <div class="zeros">
+
+        <label>
+
+
+            <input type="text" id="num1">
+
+
+        </label>
+
+        <p id="resultado"></p>
+
+
+        <button type="button" onclick="verfy()"> test</button>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="zeros">
+
+        <label>
+
+            <p>Insira nota 1:</p>
+            <input type="text" id="nota1"> <br> <br>
+
+            <p>Insira nota 2:</p>
+            <input type="text" id="nota2">
+
+        </label>
+
+        <p id="igual" ></p>
+
+        <button type="button" onclick="nota()"></button>
+
+    </div>
+
+
+    <div class="zeros">
+
+            <label>
+
+                <p>Insira um numero qualquer</p>
+                <input type="text" id="parimpar">
+
+            </label>
+
+            <p id="resultados"></p>
+
+            <button type="button" onclick="par()""></button>
+
+    </div>
+</body>
+
+</html>
